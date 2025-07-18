@@ -19,10 +19,10 @@ This project investigates exponential approximations and LUT-based techniques to
 ## Project Structure
 
 softmax-acceleration-rv32im/
-    - docs/ # Full technical report (full-report.md) and slides
-    - src/ # Core implementation and benchmark code (main.c, algo.c)
-    - run/ # Makefile and executable run results
-    - README.md # This file
+- docs/ # Full technical report (full-report.md) and slides
+- src/ # Core implementation and benchmark code (main.c, algo.c)
+- run/ # Makefile and executable run results
+- README.md # This file
 
 ## Build & Run
 
@@ -34,7 +34,8 @@ make all
 ```
 
 ## Documentation
-Full report in docs/full-report.md
+- Full report in docs/full-report.md
+- Concept slide in docs/softmax_rv32im_concept_slides.pdf
 
 ## License
 MIT License
