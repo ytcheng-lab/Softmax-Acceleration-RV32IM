@@ -56,8 +56,8 @@ int main()
     printf("                         Result                        \n");
     printf("=======================================================\n"); 
     printf("[Baseline]  glibc expf():       %u cycles\n", cycles_baseline);
-    printf("[Optimized] Taylor3 + Horner:   %u cycles\n", cycles_speedup);
+    printf("[Optimized] Taylor3 + LUT:   %u cycles\n", cycles_speedup);
     printf("[Speedup]   %.2f%% time reduction\n", speedup_percentage);
-    printf("[Accuracy]  Max absolute error: %.5f\n", max_err);
+    printf("[Accuracy]  Max absolute error: %.4f\n", max_err);
 
 }
