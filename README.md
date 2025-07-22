@@ -36,6 +36,7 @@ make all
 ## Documentation
 - Full report in docs/full-report.md
 - Concept slide in docs/softmax_rv32im_concept_slides.pdf
+- RISC-V toolchain setup (Spike, pk, compiler): [Setup Guide (HackMD)](https://hackmd.io/Ouj3SnvZTQ-1iiaWfvpPMQ)
 
 ## License
 MIT License
