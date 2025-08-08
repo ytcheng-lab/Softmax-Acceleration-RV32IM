@@ -12,10 +12,10 @@ build:
 	$(RV_GCC) $(RV_OPT) ../src/main.c ../src/algo.c ../src/data.S -I../src -lm -o exp-opt.exe
 
 run:
-	$(SPIKE) --isa=$(ISA) $(PK) exp-opt.exe
+	$(SPIKE) --isa=$(ISA) $(PK) exp-opt.exe | tee run.log
 
 clean:
-	rm -f exp-opt.exe
+	rm -f exp-opt.exe *.log
 
 all: clean build run
 
